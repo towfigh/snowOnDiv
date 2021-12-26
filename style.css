@@ -1,15 +1,35 @@
+/* down section  */
+.ftco-section{
+    color: black;
+    align-content: space-between;
+    display: inline;
+}
+.img-fluid {
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
 body {
-    height: 100vh;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    overflow: hidden;
-    filter: drop-shadow(0 0 10px white);
-  }
-  
-  .snow {
+    width:100% ;
+}
+
+/* up section  */
+.snowy {
+    height: 100%;
+    background-color: transparent;
+    overflow: visible;
+    filter: drop-shadow(0 0 10px black);
     position: absolute;
+    z-index: 999;
+}
+
+.snow {
+    color:black;
+    /* position: absolute; */
     width: 10px;
     height: 10px;
-    background: white;
+    /* background: white; */
     border-radius: 50%;
   }
   .snow:nth-child(1) {
